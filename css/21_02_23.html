@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .container {
+    width: 1170px;
+    padding: 30px;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 20px;
+}
+td{
+  width:90px;
+}
+.row{
+  display:flex; 
+  justify-content: center;
+  margin-top: 50px;
+}
+</style>
+<body>
+
+<div class="text-center">
+  <h1>My First Bootstrap Page</h1>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 offset-sm-4">
+      <h3>Column 1</h3>
+      
+    </div>
+    <div class="col-sm-4 offset-sm-4">
+      <h3><input type="password" value="">  <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a></h3>
+      
+    </div>
+    <div class="col-sm-4 offset-sm-4">
+      <h3>Column 3</h3>        
+    
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+  <table class="table w-auto table-bordered">
+     <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Content</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ansar</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Shariff</td>
+      </tr>
+     </tbody>
+  </table>
+</div>
+<div class="col-sm-6">
+  <table class="table w-auto table-bordered">
+     <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Content</th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ansar</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Shariff</td>
+      </tr>
+     </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

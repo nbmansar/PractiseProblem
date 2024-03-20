@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<style>
+.button1{
+    color : #fff;
+    padding : 18px 32px;
+    border-radius : 6px;
+    background-color : #7d2ae8;
+    transition : all 0.2s ease-in-out;
+}
+.button1:active{
+    transform : scale(0.96);
+}
+.bounce_back_button{
+    padding : 15px 50px;
+    border-radius : 6px;
+    transition : all 0.2s ease;
+    /* z-index */
+    clip-path: circle(0% at 50% 50%);
+
+}
+.bounce_back_button:hover{
+    border : 2px solid white;
+    color : white;
+    background-color : green;
+    transform : scale(1.2);
+}
+.bounce_back_button:active{
+    transform : scale(0.96);
+}
+.bounce_back_button span:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+    right: 48px;
+    transition: 0.1s;
+    font-size: 15px;
+}
+.bounce_back_button:hover span:after {
+  opacity: 1;
+  left : 0;
+}
+</style>
+<body>
+<button class="button1">Button</button>
+<button class="bounce_back_button"><span>Add</span></button>
+</body>
+</html>
